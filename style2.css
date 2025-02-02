@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Poppins ;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans ;
+    src: url(Fonts/OpenSans-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #CADF9B ;
+    color: #004200;
+    text-align: center;
+    font-family: Poppins, Verdana;
+    font-size: 1.5rem;
+    line-height: 4rem ;
+}
+h1{
+    padding-top: 3em;
+}
+p{
+    font-size: 1rem;
+}
+ul{
+    list-style: none inside;
+}
+a{
+    color: #bd4749;
+}
+a:hover, a:focus{
+    color: hsl(359, 47%, 51%, 0.6);
+}
+a:active{
+    color: rgb(255, 62, 28);
+}
+.nav1{
+    border: solid 4px #004200;
+    background: #f2e8cf;
+    margin: 50px auto;
+    border-radius: 1.5rem;
+    max-width: 450px;
+}
+h2{
+    background: #004200 ;
+    color: #CADF9B;
+    border-radius: 1rem 1rem 0 0;
+}
+.list1{
+    border-top: 2px solid #004200; 
+}
+li a{
+    text-decoration: none;
+    display: block;
+}
+li a:hover, li a:focus {
+    background: #bd4749;
+    color: #f2e8cf;
+}
+.nav2{
+    background: #bd4749;
+    padding-block: 0;
+}
+.list1:last-child a {
+    border-radius: 0 0 1.2rem 1.2rem;
+}
+.list2{
+    display: inline-block;
+    max-width: fit-content;
+    padding-inline: 50px;
+}
+.list2 a{
+    color: #f2e8cf;
+    padding-inline: 1rem;
+    margin-block: 0.5rem;
+}
+.list2 a:hover, .list2 a:focus {
+    color: #bd4749;
+    background: #f2e8cf;
+    border-radius: 0.7rem;
+}
+.ul1{
+    margin-block: 0px;
+}
+#logo a{
+    font-family: cursive;
+    font-size: 3rem;
+    background: #004200;
+    color: #CADF9B ;
+    padding-block: 0.4rem;
+}
