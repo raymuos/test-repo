@@ -38,7 +38,7 @@ a:active{
     background: #f2e8cf;
     margin: 50px auto;
     border-radius: 1.5rem;
-    max-width: 450px;
+    max-width: min(450px,80vw);
 }
 h2{
     background: #004200 ;
