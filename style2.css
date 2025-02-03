@@ -6,6 +6,10 @@
     font-family: OpenSans ;
     src: url(Fonts/OpenSans-Medium.ttf);
 }
+@font-face {
+    font-family: PixelifySans;
+    src: url(Fonts/PixelifySans-VariableFont_wght.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -86,11 +90,11 @@ li a:hover, li a:focus {
     margin-block: 0px;
 }
 #logo{
-    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-family: PixelifySans, Arial, Helvetica, sans-serif;
     font-weight: 200;
     font-size: 3rem;
-    background: #004200;
-    color: #CADF9B ;
+    background: #006200;
+    color: #aeff00 ;
     padding-block: 0.4rem;
 }
 .error{
