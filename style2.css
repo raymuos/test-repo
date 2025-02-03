@@ -94,7 +94,8 @@ li a:hover, li a:focus {
     padding-block: 0.4rem;
 }
 .error{
-    margin-top: 5em;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
 }
 .nowrap{
     color: #bd4749;
@@ -102,6 +103,7 @@ li a:hover, li a:focus {
 }
 .emoticon{
     background: #bd4749;
+    padding-inline: 0.5rem;
     border-radius: 10px;
     color: #f2e8cf;
 }
