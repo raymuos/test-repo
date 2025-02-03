@@ -18,6 +18,10 @@ body{
     font-size: 1.5rem;
     line-height: 4rem ;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 p{
     font-size: 1.3rem;
 }
@@ -95,4 +99,19 @@ li a:hover, li a:focus {
 .nowrap{
     color: #bd4749;
     white-space: nowrap;
+}
+.emoticon{
+    background: #bd4749;
+    border-radius: 10px;
+    color: #f2e8cf;
+}
+.special a{
+    font-size: 1.4rem;
+    color: #bd4749;
+    padding-inline: 1rem;
+}
+.special a:hover, .special a:focus {
+    color: #f2e8cf;
+    background: #bd4749;
+    border-radius: 0.7rem;
 }
