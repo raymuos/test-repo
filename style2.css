@@ -33,7 +33,7 @@ a:hover, a:focus{
 a:active{
     color: rgb(255, 62, 28);
 }
-.nav1{
+.menu{
     border: solid 4px #004200;
     background: #f2e8cf;
     margin: 50px auto;
@@ -56,7 +56,7 @@ li a:hover, li a:focus {
     background: #bd4749;
     color: #f2e8cf;
 }
-.nav2{
+.nav{
     background: #bd4749;
     padding-block: 0;
 }
@@ -81,14 +81,18 @@ li a:hover, li a:focus {
 .ul1{
     margin-block: 0px;
 }
-#logo a{
-    font-family: cursive;
+#logo{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-weight: 200;
     font-size: 3rem;
     background: #004200;
     color: #CADF9B ;
     padding-block: 0.4rem;
 }
 .error{
-    padding-top: 4em;
-    text-align: center;
+    margin-top: 5em;
+}
+.nowrap{
+    color: #bd4749;
+    white-space: nowrap;
 }
